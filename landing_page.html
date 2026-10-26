@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marc-André Bausch | Fachinformatiker Systemintegration</title>
+<meta name="description" content="Bewerbungsseite von Marc-André Bausch: Fachinformatiker Systemintegration (IHK), Netzwerk- und IT-Security.">
+<style>
+  :root{
+    --bg:#0d1117; --surface:#161b22; --border:#262d36; --text:#e6edf3; --muted:#8b949e;
+    --accent:#c0272d; --accent-2:#d04a4f; --accent-btn:#8e1a1f;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f6f8fa; --surface:#ffffff; --border:#d8dee4; --text:#1f2328; --muted:#59636e; --accent:#9b1c1f; --accent-2:#b3262b; --accent-btn:#9b1c1f; }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  a{color:var(--accent-2);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:900px;margin:0 auto;padding:0 20px}
+  header.nav{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);z-index:10}
+  .nav .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+  .logo{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-weight:700;color:var(--accent)}
+  .nav nav a{color:var(--muted);margin-left:18px;font-size:.92rem}
+  .nav nav a:hover{color:var(--text);text-decoration:none}
+  .hero{padding:84px 0 56px}
+  .tag{display:inline-block;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85rem;color:var(--accent);border:1px solid var(--border);background:var(--surface);padding:4px 12px;border-radius:999px;margin-bottom:20px}
+  h1{font-size:clamp(2rem,6vw,3.2rem);line-height:1.15;letter-spacing:-.02em}
+  h1 span{color:var(--accent)}
+  .lead{color:var(--muted);font-size:1.1rem;max-width:640px;margin:18px 0 28px}
+  .btns{display:flex;flex-wrap:wrap;gap:12px}
+  .btn{display:inline-block;padding:11px 20px;border-radius:8px;font-weight:600;border:1px solid var(--border)}
+  .btn.primary{background:var(--accent-btn);color:#fff;border-color:var(--accent-btn)}
+  .btn:hover{text-decoration:none;opacity:.88}
+  section{padding:48px 0;border-top:1px solid var(--border)}
+  h2{font-size:1.5rem;margin-bottom:6px}
+  h2::before{content:"// ";color:var(--accent);font-family:ui-monospace,Menlo,Consolas,monospace}
+  .sub{color:var(--muted);margin-bottom:26px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px}
+  .card h3{font-size:1.02rem;margin-bottom:10px}
+  .chips{display:flex;flex-wrap:wrap;gap:7px}
+  .chip{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;background:var(--bg);border:1px solid var(--border);color:var(--muted);padding:3px 10px;border-radius:6px}
+  .card p{color:var(--muted);font-size:.95rem}
+  .timeline{list-style:none;border-left:2px solid var(--border);margin-left:6px}
+  .timeline li{position:relative;padding:0 0 26px 24px}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:2px solid var(--bg)}
+  .timeline .when{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;color:var(--accent)}
+  .timeline h3{font-size:1.05rem}
+  .timeline p{color:var(--muted);font-size:.95rem}
+  .contact{text-align:center}
+  .contact .btns{justify-content:center}
+  footer{padding:28px 0;color:var(--muted);font-size:.85rem;text-align:center;border-top:1px solid var(--border)}
+  @media(max-width:560px){.nav nav a:not(:last-child){display:none}.hero{padding-top:56px}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <span class="logo">&gt;_ Marc-André Bausch</span>
+    <nav>
+      <a href="#skills">Skills</a>
+      <a href="#projekte">Projekte</a>
+      <a href="#werdegang">Werdegang</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <div class="hero">
+      <span class="tag">● offen für Angebote</span>
+      <h1>Fachinformatiker<br><span>Systemintegration</span> (IHK)</h1>
+      <p class="lead">
+        Netzwerke, Linux und IT-Security, dazu Erfahrung aus Unternehmens-IT, SAP-Umfeld. Aktuell in der Umschulung zum FISI,
+        Region Göppingen / Stuttgart.
+      </p>
+      <div class="btns">
+        <a class="btn primary" href="#kontakt">Kontakt aufnehmen</a>
+        <a class="btn" href="#">Lebenslauf (PDF)</a>
+      </div>
+    </div>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p class="sub">Was ich mitbringe: praktisch erprobt, nicht nur im Lehrbuch.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Netzwerk &amp; Infrastruktur</h3>
+          <div class="chips">
+            <span class="chip">TCP/IP</span><span class="chip">Routing</span><span class="chip">VLAN</span>
+            <span class="chip">DNS / DHCP</span><span class="chip">Firewall</span><span class="chip">OpenWrt</span>
+            <span class="chip">FritzBox</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Systeme &amp; Betrieb</h3>
+          <div class="chips">
+            <span class="chip">Linux</span><span class="chip">Windows</span><span class="chip">OpenWRT/DD-WRT</span>
+            <span class="chip">Android</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>IT-Security</h3>
+          <div class="chips">
+            <span class="chip">Linux-Hardening</span><span class="chip">OpenWRT/DD-WRT-Hardening</span><span class="chip">KaliNethunter Device porting & Kernel developing</span>
+            <span class="chip">Archlinux</span><span class="chip">Debian/Ubuntu/Kali</span>
+            <span class="chip">Digitale Forensik</span><span class="chip">Pentest-Grundlagen</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Embedded &amp; Hardware</h3>
+          <div class="chips">
+            <span class="chip">ESP32</span><span class="chip">ESP8266</span><span class="chip">Hardware-Hacking</span>
+            <span class="chip">Arduino</span><span class="chip">Elektronik</span><span class="chip">Router</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Business &amp; Organisation</h3>
+          <div class="chips">
+            <span class="chip">IT-Koordination</span><span class="chip">SAP-Umfeld</span>
+            <span class="chip">Prozessverständnis</span><span class="chip">Dokumentation</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>SAP</h3>
+          <div class="chips">
+            <span class="chip">MM</span><span class="chip">WM</span>
+            <span class="chip">Basis</span><span class="chip">Berechtigungen und User-Administration</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projekte">
+      <h2>Projekte</h2>
+      <p class="sub">Eigene Projekte, an denen ich Praxis sammle.</p>
+      <div class="grid">
+		<div class="card">
+          <h3>OpenWRT Portierungen für diverse Router sowie Software</h3>
+          <p> > Afoundry Q500 based on MTK7628AN.
+          <!-- <a class="btn" href="https://github.com/xNNism/MT7628-Q500">GitHub</a></p> -->
+          <p> > Afoundry-EW1200 based on MediaTek MT7621A.
+          <!-- <a class="btn" href="https://openwrt.org/toh/afoundry/ew1200">GitHub</a></p> -->
+          <p> > GL-MT300N-V2 based on MTK7628NN.
+          <!-- <a class="btn" href="https://openwrt.org/toh/afoundry/ew1200">GitHub</a></p> -->
+        </div>
+        <div class="card">
+          <h3>Home-Network-Hardening</h3>
+          <p>Router-Absicherung mit OpenWrt, banIP und CrowdSec, um die Angriffsfläche zu reduzieren und Traffic nachvollziehbar zu machen.</p>
+        </div>
+        <div class="card">
+          <h3>Kali NetHunter auf Mobilgerät</h3>
+          <p>Portierung und Konfiguration von NetHunter Pro auf einem Smartphone für mobile Security-Tests.</p>
+        </div>
+        <div class="card">
+          <h3>Mikrocontroller</h3>
+          <p>Realtime Music visualisation using a WS2812-Strip and ESP8266.</p>
+          <a class="btn" href="https://www.youtube.com/watch?v=bRqQdEJmd4s">YouTube</a>
+        </div>
+        <div class="card">
+          <h3>SysBoard</h3>
+          <p>Linux plus Arduino and Hyperion Ambilight</p>
+          <a class="btn" href="https://www.youtube.com/watch?v=L_Fg2_5ToOg">YouTube</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="werdegang">
+      <h2>Werdegang</h2>
+      <p class="sub">Von der Leidenschaft zum Beruf.</p>
+      <ul class="timeline">
+        <li>
+          <span class="when">aktuell</span>
+          <h3>Umschulung Fachinformatiker Systemintegration (IHK)</h3>
+          <p>Bei der GFN mit Schwerpunkt auf Netzwerken, Servern, Betriebssystemen und IT-Sicherheit.</p>
+        </li>
+        <li>
+          <span class="when">zuvor</span>
+          <h3>IT-Koordinator & SAP Anwendungsbetreuer</h3>
+          <p>SAP WM, MM, SD & Basis Administration, Berechtigungsverwaltung.</p>
+        </li>
+        <li>
+          <span class="when">zuvor</span>
+          <h3>SAP-Inhouse-Berater WM, Märklin</h3>
+          <p>Arbeit im SAP-Umfeld eines Industrieunternehmens.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="kontakt" class="contact">
+      <h2>Kontakt</h2>
+      <p class="sub">Ich freue mich auf Ihre Nachricht.</p>
+      <div class="btns">
+        <a class="btn primary" href="mailto:m.bausch@protonmail.com">m.bausch@protonmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/DEIN-PROFIL">LinkedIn</a>
+        <a class="btn" href="https://github.com/xNNism">GitHub #1</a>
+        <a class="btn" href="https://github.com/3XitLiGHT">GitHub #2</a>
+        <a class="btn" href="https://github.com/3XitLiGHT-xNNism">GitHub #3</a>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Marc-André Bausch · Göppingen, Baden-Württemberg</div>
+</footer>
+
+</body>
+</html>
